@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+}
+
+img {
+    height: 200px;
+    position: relative;
+    left: 200px;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+p{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.list {
+    padding-left: 30px;
+}
+
+.name {
+    font-family:"Luxurious Script", sans-serif;
+    font-size: 50px;
+    color: #6C086F;
+}
+
+#libraries {
+    font-weight: 700;
+}
+
+.inner-list {
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: #789DE8;
+    background-color: #DDA7DB;
+}

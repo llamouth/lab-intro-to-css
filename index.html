@@ -3,38 +3,37 @@
   <head>
     <meta charset="utf-8" />
     <title>CSS Intro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Luxurious+Script:regular" rel="stylesheet" />
   </head>
   <body>
-    <h1>Your Name Here</h1>
-    <div>
+    <h1 class="name">Your Name Here</h1>
+    <figure>
       <p>
         This is a bunch of information about myself. I'm from here and there and
         discovered my love of programming when this happened. When I'm not
         working I'm busy doing this and that.
       </p>
-    </div>
+    </figure>
 
-    <img
-      src="https://www.breakthrough-pt.com/wp-content/uploads/2014/11/female-default-profile-photo.png"
-      alt=""
-    />
+    <img src="example.png" alt="">
 
     <div>
       <h3>Here are some of my Skills!</h3>
-      <ul>
+      <ul class="list" id="languages">
         <h3>Languages</h3>
-        <li>JavaScript</li>
-        <li>SQL</li>
-        <li>HTML5</li>
-        <li>CSS3</li>
+        <li class="inner-list">JavaScript</li>
+        <li class="inner-list">SQL</li>
+        <li class="inner-list">HTML5</li>
+        <li class="inner-list">CSS3</li>
       </ul>
 
-      <ol>
+      <ol class="list" id="libraries">
         <h3>Libraries</h3>
-        <li>React</li>
-        <li>PostgreSQL</li>
-        <li>Node</li>
-        <li>Bootstrap</li>
+        <li class="inner-list">1. React</li>
+        <li class="inner-list">2. PostgreSQL</li>
+        <li class="inner-list">3. Node</li>
+        <li class="inner-list">4. Bootstrap</li>
       </ol>
     </div>
 
@@ -53,10 +52,10 @@
       <a href="mailto:hello@pursuit.org" target="_top">hello@pursuit.org</a>
     </div>
 
-    <ul>
-      <li><a href="github.com">github link</a></li>
-      <li><a href="linkedin.com">LinkedIn link</a></li>
-      <li><a href="angellist.com">Angel list link</a></li>
+    <ul class="list" id="links">
+      <li class="inner-list"><a href="github.com">github link</a></li>
+      <li class="inner-list"><a href="linkedin.com">LinkedIn link</a></li>
+      <li class="inner-list"><a href="angellist.com">Angel list link</a></li>
     </ul>
   </body>
 </html>
